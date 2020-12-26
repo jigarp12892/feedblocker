@@ -9,13 +9,12 @@ chrome.browserAction.onClicked.addListener(function(block) {
     if( (click_count%2) === 0 )
     {
       
-      chrome.tabs.sendMessage(activeTab.id, {"message": "unclicked_browser_action"});
+      chrome.tabs.sendMessage(activeTab.id, {"message": "clicked_browser_action"});
       
     }
     else 
-    {
-      chrome.tabs.sendMessage(activeTab.id, {"message": "clicked_browser_action"});
-      
+    {      
+      chrome.tabs.sendMessage(activeTab.id, {"message": "unclicked_browser_action"});
     }
   });
 });
