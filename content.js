@@ -12,6 +12,7 @@ chrome.runtime.onMessage.addListener(
 		else if( request.message === "unclicked_browser_action")
 		{
 			location.reload()
+			console.log("reloading")
 		}
 		 
 	} 
