@@ -31,7 +31,7 @@ function blockFeed(){
 				function (element)
 					{
 			
-							element.innerHTML = '<h1 style="font-size: 50px;color: white;">INFINITE SCROLLING BLOCKED (CLICK THE EXTENSION BUTTON IN THE TOOL BAR TO TOGGLE NEWSFEED ON/OFF</h1>';
+							element.innerHTML = '<h1 style="font-size: 50px;color: white;">INFINITE SCROLLING BLOCKED (CLICK THE EXTENSION BUTTON IN THE TOOL BAR TO TOGGLE NEWSFEED ON/OFF)</h1>';
 						
 					}
 			); 
